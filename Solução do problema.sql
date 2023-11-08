@@ -40,7 +40,7 @@ SELECT Nome, Genero
 FROM [Filmes].[dbo].[Filmes] AS FILMES
 INNER JOIN Filmes.dbo.FilmesGenero ON FILMES.Id = FilmesGenero.IdFilme
 INNER JOIN Filmes.dbo.Generos ON Generos.Id = FilmesGenero.IdGenero
-WHERE Genero LIKE 'Mistério'
+WHERE Genero LIKE 'MistÃ©rio'
 --12
 SELECT Nome, PrimeiroNome, UltimoNome, Papel
 FROM [Filmes].[dbo].[Filmes] AS FILMES
